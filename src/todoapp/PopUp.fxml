@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="164.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todoapp.PopUpController">
+   <children>
+      <AnchorPane layoutX="-119.0" layoutY="-167.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="label1" layoutX="47.0" layoutY="33.0" text="Date" />
+      <Label fx:id="label2" layoutX="48.0" layoutY="72.0" text="Task" />
+      <TextField fx:id="inputdate" layoutX="103.0" layoutY="28.0" prefHeight="31.0" prefWidth="260.0" promptText="Input Date" />
+      <TextField fx:id="inputtask" layoutX="103.0" layoutY="67.0" prefHeight="31.0" prefWidth="260.0" promptText="Input Task" />
+      <Button fx:id="add" layoutX="164.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleActionEvent" text="Add" />
+   </children>
+</AnchorPane>
